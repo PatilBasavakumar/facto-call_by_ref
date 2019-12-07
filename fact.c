@@ -17,10 +17,8 @@ int main(void)
 long int fact(int *n)
 {
     long int val = 1;
-    while(*n > 1)
-    {
-        val = val*(*n);
-        (*n)--;
-    }
+    int fact = *n;
+    while(fact > 1)
+        val = val*(fact--);
     return val;
 }
