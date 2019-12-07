@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int val=0x41424344;
     char *pc;
